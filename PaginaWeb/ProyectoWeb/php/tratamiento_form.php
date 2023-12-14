@@ -39,6 +39,6 @@ if ($conexion->query($sql) === TRUE) {
 
 $conexion->close();
 
-header("Location: /ProyectoWeb/contactenos.php");
+header("Location: /PaginaWeb/ProyectoWeb/contactenos.php");
 exit;
 ?>
